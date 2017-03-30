@@ -1,0 +1,16 @@
+@charset="utf-8";
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	border:none;
+	font-family:"PingFang SC Regular","微软雅黑";
+	text-align: center;color: #fff;font-size: 15px;
+}
+body{
+	background:#fff;
+}
+img{width: 100%;}
+.a1{margin-top: 40%;}
+input{background-color: #07bdd3;width: 29%;padding: 2% 10%;margin-bottom: 60%;}

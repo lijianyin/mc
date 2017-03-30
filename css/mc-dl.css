@@ -1,0 +1,81 @@
+/*
+* @Author: Administrator
+* @Date:   2016-12-13 09:45:12
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-12-15 13:38:00
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	border: 0;
+	font-family: 'microsoft yahei';
+	font-size: 16px;
+	color: #333;
+	text-align: center;
+}
+.wrap{
+	height: 170%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.banner{
+	margin: 0 auto;height: 200px;
+}
+.banner .img{	
+	position: relative;
+	height: 250px;
+	z-index: -1;
+	background: url(../images/zk.png) no-repeat;
+    background-size:cover;background-position: center;
+}
+.login{
+    width: 4em;
+    height: 70px;
+    top: -100px;
+    display: inline-block;
+    margin-right: 23.8%;
+    background: url(../images/3.png) 10px 30px no-repeat;
+    background-size: 3em;
+}
+.register{
+	display: inline-block;
+	margin-left: 23.8%;
+}
+.dianji img{width: 12.5%;}
+.shoujihao{
+	width: 60%;
+	margin-top: 10%;
+	border-bottom: 1px solid;
+	margin-bottom: 8.5%;
+}
+.mima{width: 60%;
+	border-bottom: 1px solid;
+	margin-bottom: 9%;
+}
+.button{
+	width: 60%;height: 2em;
+	font-size: 18px;
+	margin-bottom: 3%;
+	border: 1px solid;
+	border-radius: 50px;
+	background-color: #fff;
+}
+.wangji{
+	margin-bottom: 13.5%;
+	color: #666;font-size: 13px;
+}
+.hezuo,.wangji a{
+	margin-bottom: 8.4%;
+	color: #666;font-size: 13px;
+}
+ul li{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	margin:0 3%;
+}
+ul li a img{
+	width: 50%;
+}

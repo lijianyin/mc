@@ -1,0 +1,84 @@
+@charset="utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	font-family: "PingFang SC Regular","微软雅黑";
+	text-align: left;
+	color: #333;
+	font-size: 15px;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background: #fafafa;
+}
+
+.wrap .back {
+	padding: 2%;
+    color: #000;
+    text-align: center;
+    font-size: 21px;
+    background: #fff;
+}
+
+.wrap .back a img {
+    width: 25px;
+    height: 25px;
+	float: left;
+}
+
+.xinxi {
+	width: 100%;
+	display: block;
+	position: absolute;
+}
+
+.s,.z,.x {
+	background-color: #fff;
+}
+
+.z,.x {
+	margin-top: 3%;
+}
+
+.s .p,.z .p,.x .p {
+	width: 98%;
+	position: relative;
+	padding: 1%;
+	height: 2em;
+}
+
+.s .p .l,.z .p .l,.x .p .l {
+	display: inline-block;
+	position: relative;
+	left: 0;
+	padding-left: 3%;
+}
+
+.s .p .r,.z .p .r,.x .p .r {
+	padding-right: 3%;
+	position: absolute;
+	right: 0;
+	text-align: right;
+	display: inline-block;
+	color: #888;
+	background-color: #fff;
+}
+
+.s .p .r img,.z .p .r img,.x .p .r img {
+	height: 1em;
+}
+
+.s .p .r .img {
+	height: 2.4em;
+	position: absolute;
+	right: 2em;
+	top: 10%;
+}

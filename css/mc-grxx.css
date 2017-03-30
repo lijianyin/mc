@@ -1,0 +1,110 @@
+@charset="utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	font-family: "PingFang SC Regular","微软雅黑";
+	text-align: left;
+	color: #333;
+	font-size: 15px;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background: #fafafa;
+}
+
+.back {
+	width: 96%;
+}
+.red{color: red;}
+.back img {
+	padding: 2%;
+	width: 25px;height: 25px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.banner {
+	width: 100%;
+}
+
+.banner .beijing {
+	width: 100%;
+}
+
+.banner .beijing img {
+	width: 100%;height: 200px;
+}
+
+.banner .touxiang {
+	
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	padding: 95px 10px;
+}
+
+.banner .touxiang img {
+	width: 65px;
+	border-radius: 50%;
+}
+
+.banner .guanzhu {
+	width: 94%;
+	padding: 170px 10px;
+	position: absolute;
+	left: 0%;
+	top: 0%;
+}
+
+.banner .guanzhu a span input {
+	width: 23.5%;
+	background-color: #f2f0f0;
+	text-align: center;
+	float: right;
+	margin-right: 3%;
+}
+
+.xinxi {
+	width: 100%;
+	display: block;
+	height: 95%;
+}
+
+.s,.x {
+	
+	height: 36%;
+}
+
+.x {
+	margin-top: 3%;
+}
+
+.s .p,.x .p {margin-top: 1px;
+	height: 24.1%;
+	width: 100%;
+	position: relative;
+}
+
+.s .p .l,.x .p .l {
+	padding-left: 3%;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+}
+
+.s .p .r,.x .p .r {
+	padding-right: 3%;
+	position: absolute;
+	right: 0;
+	display: inline-block;
+	color: #888;
+}

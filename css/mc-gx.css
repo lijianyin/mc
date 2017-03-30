@@ -1,0 +1,133 @@
+@charset="utf-8";
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	border:none;
+	font-family:"PingFang SC Regular","微软雅黑";
+	text-align: center;color: #fff;font-size: 12px;
+}
+body{
+	background:#eee;
+}
+.banner{
+	width: 100%;
+	height: 200px;
+	position: relative;
+}
+.xyd{
+	position: relative;text-align: center;
+	top: 15px;
+}
+.xyd img{width: 10px;}
+.pp{width: 100%;height: 200px;
+	position: absolute;top: 0;margin: 0 auto;
+}
+.p{
+	height: 105px;width: 200px;
+	position: relative;margin: 0 auto;
+	left: 0;top: 0;
+}
+.p .p1{
+	margin-top: 10.5px;
+	margin-bottom:17px;font-size: 21px;line-height: 21px;
+}
+.p .p2{
+	margin: 0 auto;font-size: 15px;line-height: 15px;
+	width: 110px;height: 38px;
+	padding: 24px 47px 27px 43px;
+	border:1px solid #fff;
+	border-bottom: none;
+	z-index: 1;position: relative;
+}
+.hrl{position: absolute;float: left;left: 0;
+	width: 45.25PX;color: #f00;
+	border-bottom:1px solid #fff;
+	display: inline-block;
+}
+.hrr{display: inline-block;position: absolute;
+	width: 45.25PX;color: #f00;border-bottom:1px solid #fff;float: right;}
+.p .p3{z-index: 2;padding:5px 16px;font-size: 14px;line-height: 14px;display: inline-block;
+	display: inline;
+	border:2px solid #fff;
+}
+ul li{
+	float: left;
+	width: 50%;
+}
+ul li img{
+	width: 99%;
+	height: 100%;
+}
+ul li p{position: absolute;}
+ul li .p1{
+	left: 7%;margin-top: 8%;
+	border-top: 2px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+ul li .p11{
+	left: 59%;margin-top: 8%;
+	border-top: 2px solid #fff;
+	border-bottom: 1px solid #fff;}
+ul li .p2{
+	left: 8%;margin-top: 15%;
+}
+ul li .p22{
+	left: 59%;margin-top: 15%;
+}
+
+
+ul li .p3{margin:16%;font-size: 18px;}
+
+
+
+
+.footer{
+	width:100%;
+	height:49px;
+	margin-top:9px;
+	background:#f7f5f5;
+}
+.footer ul{
+	padding-top:6px;
+}
+.footer ul li{
+	float:left;
+	width:20%;
+	font-size:12px;
+	text-align:center;
+}
+.footer ul li.li-1{
+	background:url(../images/footer-11.png) no-repeat top;
+	padding-top:23px;
+}
+.footer ul li.li-2{
+	background:url(../images/footer-22.png) no-repeat top;
+	padding-top:23px;
+}
+.footer ul li.li-4{
+	background:url(../images/footer-3.png) no-repeat top;
+	padding-top:23px;
+}
+.footer ul li.li-5{
+	background:url(../images/footer-4.png) no-repeat top;
+	padding-top:23px;
+}
+.footer ul li.li-3{
+	background:#fa9372;
+	height:29px;
+	width:10%;
+	margin:0 5%;
+	padding-top:8px;
+}
+.footer ul li.li-3 img{
+	height:22px;
+	width:22px;
+}
+.footer ul li a{
+	color:#adacac;
+}
+.footer ul li.li-2 a{
+	color:#fa9372;
+}

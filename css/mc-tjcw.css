@@ -1,0 +1,133 @@
+@charset="utf-8";
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	border:none;
+	font-family:"PingFang SC Regular","微软雅黑";
+}
+body{
+	background:#eee;
+}
+.banner-box{
+	height:185px;
+    background: url(../images/tjcw-1.jpg) no-repeat;
+    background-size:100%;
+}
+.banner{
+	height:185px;
+	position:relative;
+}
+.banner h1{
+	width:100%;
+	padding-top:13px;
+	font-size:21px;
+	color:#333;
+	text-align:center;
+}
+.banner .pic-1{
+	position:absolute;
+	left:10px;
+	top:10px;
+	width:11px;
+	height:20px;
+}
+.banner .pic-1 img{
+	width:11px;
+	height:20px;
+}
+.banner .pic-2{
+	width:92px;
+    height:92px;
+    margin:20px auto 0;
+    overflow:hidden;
+    border-radius:50%;
+    background:#fff;
+}
+.banner .pic-2 img{
+	width:92px;
+    height:92px;
+}
+.content{
+	width:100%;
+	overflow:hidden;
+	background:#fff;
+}
+.content ul li{
+	width:100%;
+	height:45px;
+	border-bottom:1px solid #e8e8e8;
+	line-height:45px;
+	clear:both;
+}
+.content ul li.li-1 form{
+	position:relative;
+}
+.content ul li.li-1 form input{
+	width:95%;
+	height:43px;
+	line-height:43px;
+	text-align:right;
+	outline:none;
+	padding-right:5%;
+	font-size:15px;
+	color:#999;
+	cursor:pointer;
+}
+.content ul li.li-1 form label{
+	position:absolute;
+	left:3.6%;
+	top:0;
+	font-size:15px;
+	color:#333;
+	cursor:pointer;
+}
+.content ul li p.p-1{
+	font-size:15px;
+	color:#333;
+	margin-left:3.6%;
+	float:left;
+}
+.content ul li p.p-2{
+	font-size:15px;
+	color:#999;
+	float:right;
+	margin-right:13px;
+}
+.content ul li .pic{
+	float:right;
+	margin-right:5%;
+}
+.content ul li .pic img{
+	width:10px;
+	height:17px;
+}
+.content ul li.li-2 p.p-2 span.span-1{
+	background:url(../images/tjcw-4.png) no-repeat left;
+	background-size:32px 32px;
+	padding:10px 0 10px 38px;
+	margin-right:8px;
+}
+.content ul li.li-2 p.p-2 span.span-2{
+	background:url(../images/tjcw-5.png) no-repeat left;
+	background-size:32px 32px;
+	padding:10px 0 10px 38px;
+}
+.btn{
+	width:100;
+	overflow:hidden;
+	margin-top:12px;
+}
+.btn form input{
+	width:74%;
+	height:40px;
+	margin-left:14%;
+	background:#fa7556;
+	line-height:40px;
+	text-align:center;
+	font-size:15px;
+	color:#fff;
+	border-radius:10px;
+	cursor:pointer;
+}

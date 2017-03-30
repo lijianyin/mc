@@ -1,0 +1,81 @@
+/*
+* @Author: Administrator
+* @Date:   2016-12-13 09:45:12
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-12-15 13:55:08
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	border: 0;
+	font-family: 'microsoft yahei';
+	font-size: 16px;
+	color: #333;
+	text-align: center;
+}
+.wrap{
+	height: 170%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.banner{
+	margin: 0 auto;
+	height: 200px;
+}
+.banner .img{	
+	position: relative;
+	height: 250px;
+	z-index: -1;
+	background: url(../images/zk.png) no-repeat;
+    background-size:cover;background-position: center;
+}
+.login{
+	display: inline-block;
+	margin-right: 23.8%;
+	padding-left: 4.8%;
+}
+.register{
+    width: 4em;
+    height: 70px;
+	display: inline-block;
+	margin-left: 23.8%;
+	background: url(../images/3.png) 5px 30px no-repeat;
+    background-size: 3em;
+}
+.shoujihao{
+	width: 60%;
+	margin-top: 13%;
+	border-bottom: 1px solid;
+	margin-bottom: 7%;
+}
+.mima{
+	width: 60%;
+	border-bottom: 1px solid;
+	margin-bottom: 6.8%;
+}
+.yanzheng{
+	border-bottom: 1px solid;
+	margin-bottom: 9%;
+	width: 30%;padding-bottom: 1em;
+}
+.huoqu{display: inline-block;font-size: 16px;padding-top: 0.5em;
+	width: 30%;height: 2em;
+	border: 1px solid;
+	border-radius: 20px;
+}
+.xieyi{
+	margin-bottom: 7.5%;
+	color: #666;font-size: 12px;
+}
+.zhuce{margin-bottom: 10%;
+	width: 20%;height: 2em;font-size: 15px;
+	color:#fff;background-color: #6aa9ff;
+	border: 1px solid;
+	border-radius: 10px;
+}
+.hezuo,.xieyi a{
+	margin-bottom: 8.4%;width: 70%;margin: 0 auto;
+	color: #666;font-size: 7px;width: 78%;
+}

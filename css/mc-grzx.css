@@ -1,0 +1,212 @@
+@charset="utf-8";
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	border:none;
+	font-family:"PingFang SC Regular","微软雅黑";
+}
+body{
+	background:#eee;
+}
+.banner-box{
+	height:223px;
+    background: url(../images/grzx-1.jpg) no-repeat;
+    background-size:100%;
+}
+.banner{
+	height:223px;
+	background:rgba(0,0,0,0.2);
+}
+.banner h1{
+	width:100%;
+	padding-top:30px;
+	font-size:21px;
+	color:#333;
+	text-align:center;
+}
+.banner .pic{
+	width:67px;
+    height:67px;
+    margin:15px auto 0;
+    overflow:hidden;
+    border-radius:50%;
+}
+.banner .pic img{
+	width:110%;
+	height:100%;
+}
+.banner p.p-1{
+	padding-top:5px;
+	font-size:15px;
+	color:#333;
+	text-align:center;
+	line-height:35px;
+}
+.banner p.p-2{
+	font-size:15px;
+	color:#333;
+	text-align:center;
+}
+.banner p.p-2 span.span-1{
+	background:url(../images/grzx-3.png) no-repeat left;
+	background-size:16px 20px;
+	padding:0 9px 0 18px;
+	border-right:1px solid #e8e8e8;
+}
+.banner p.p-2 span.span-2{
+	background:url(../images/grzx-4.png) no-repeat left;
+	background-size:16px 16px;
+	padding-left:18px;
+	margin-left:5px;
+}
+.content-1{
+	width:100%;
+	overflow:hidden;
+	background:#fff;
+	margin-bottom:10px;
+}
+.content-1 ul li{
+	width:100%;
+	overflow:hidden;
+	border-bottom:1px solid #e8e8e8;
+}
+.content-1 ul li.li-3{
+	border-bottom:none;
+}
+.content-1 ul li img{
+	display:block;
+}
+.content-1 ul li img.pic-1{
+	float:left;
+	padding:9px 16px 9px 10px;
+	width:27px;
+	height:27px;
+}
+.content-1 ul li img.pic-2{
+	float:right;
+	width:9px;
+	height:17px;
+	padding:14px 10px 0 0;
+}
+.content-1 ul li p{
+	float:left;
+	font-size:16px;
+	color:#333;
+	padding-top:13px;
+}
+.content-2{
+	width:100%;
+	overflow:hidden;
+	background:#fff;
+	margin-bottom:10px;
+}
+.content-2 ul li{
+	width:100%;
+	overflow:hidden;
+	border-bottom:1px solid #e8e8e8;
+}
+.content-2 ul li.li-2{
+	border-bottom:none;
+}
+.content-2 ul li img{
+	display:block;
+}
+.content-2 ul li img.pic-1{
+	float:left;
+	padding:9px 16px 9px 10px;
+	width:27px;
+	height:27px;
+}
+.content-2 ul li img.pic-2{
+	float:right;
+	width:9px;
+	height:17px;
+	padding:14px 10px 0 0;
+}
+.content-2 ul li p{
+	float:left;
+	font-size:16px;
+	color:#333;
+	padding-top:13px;
+}
+.content-3{
+	width:100%;
+	overflow:hidden;
+	background:#fff;
+	margin-bottom:105px;
+}
+.content-3 ul li{
+	width:100%;
+	overflow:hidden;
+}
+.content-3 ul li img{
+	display:block;
+}
+.content-3 ul li img.pic-1{
+	float:left;
+	padding:9px 16px 9px 10px;
+	width:27px;
+	height:27px;
+}
+.content-3 ul li img.pic-2{
+	float:right;
+	width:9px;
+	height:17px;
+	padding:14px 10px 0 0;
+}
+.content-3 ul li p{
+	float:left;
+	font-size:16px;
+	color:#333;
+	padding-top:13px;
+}
+.footer{
+	width:100%;
+	height:49px;
+	margin-top:9px;
+	background:#f7f5f5;
+}
+.footer ul{
+	padding-top:6px;
+}
+.footer ul li{
+	float:left;
+	width:20%;
+	font-size:12px;
+	color:#adacac;
+	text-align:center;
+}
+.footer ul li.li-1{
+	background:url(../images/grzx-11.png) no-repeat top;
+	padding-top:23px;
+	background-size:20px 19px;
+}
+.footer ul li.li-2{
+	background:url(../images/grzx-12.png) no-repeat top;
+	padding-top:23px;
+	background-size:20px 20px;
+}
+.footer ul li.li-4{
+	background:url(../images/grzx-13.png) no-repeat top;
+	padding-top:23px;
+	background-size:19px 21px;
+}
+.footer ul li.li-5{
+	background:url(../images/grzx-14.png) no-repeat top;
+	padding-top:23px;
+	background-size:19px 20px;
+	color:#fa9372;
+}
+.footer ul li.li-3{
+	background:#fa9372;
+	height:29px;
+	width:10%;
+	margin:0 5%;
+	padding-top:8px;
+}
+.footer ul li.li-3 img{
+	height:22px;
+	width:22px;
+}

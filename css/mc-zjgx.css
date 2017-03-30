@@ -1,0 +1,107 @@
+@charset="utf-8";
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	border:none;
+	font-family:"PingFang SC Regular","微软雅黑";
+}
+body{
+	background:#eee;
+	min-width:375px;
+}
+.content-1-box{
+	height:300px;
+    background: url(../images/zjgx-1.jpg) no-repeat;
+    background-size:100%;
+}
+.content-1{
+	height:300px;
+	background:rgba(0,0,0,0.1);
+}
+.content-1 .pic{
+	width:11px;
+	height:20px;
+	padding:10px 0 0 10px;
+}
+.content-1 .pic img{
+	width:100%;
+}
+.content-1 .bf{
+	width:41px;
+	height:51px;
+	border:1px solid #fff;
+	border-radius:50%;
+	margin:83px auto 0;
+	padding:11px 0 0 20px;
+}
+.content-1 .bf img{
+	width:75%;
+}
+.content-2{
+	width:100%;
+	overflow:hidden;
+	background:#706e6e;
+}
+.content-2 p.p-1{
+	font-size:14px;
+	color:#fff;
+	margin:12px 0 0 10px;
+}
+.content-2 p.p-2{
+	font-size:12px;
+	color:#fff;
+	margin:12px 0 32px 10px;
+}
+.content-2 .line{
+	width:97.5%;
+	margin:0 0 10px 2.5%;
+	border-top:1px solid #e8e8e8;
+}
+.content-3{
+	width:100%;
+	overflow:hidden;
+	background:#706e6e;
+}
+.content-3 p{
+	font-size:14px;
+	color:#fff;
+	margin:0 0 116px 10px;
+}
+.footer{
+	width:100%;
+	overflow:hidden;
+	background:#706e6e;
+}
+.footer ul{
+	clear:both;
+	margin:0 0 40px 10px;
+}
+.footer ul li{
+	float:left;
+	margin-right:7%;
+	font-size:14px;
+	color:#fff;
+}
+.footer ul li.li-1{
+	background:url(../images/zjgx-3.png) no-repeat left;
+	padding-left:24px;
+	background-size:21px 19px;
+}
+.footer ul li.li-2{
+	background:url(../images/zjgx-4.png) no-repeat left;
+	padding-left:24px;
+	background-size:19px 16px;
+}
+.footer ul li.li-3{
+	background:url(../images/zjgx-5.png) no-repeat left;
+	padding-left:24px;
+	background-size:17px 15px;
+}
+.footer ul li.li-4{
+	background:url(../images/zjgx-6.png) no-repeat left;
+	padding-left:24px;
+	background-size:17px 16px;
+	margin-right:0;
+}
